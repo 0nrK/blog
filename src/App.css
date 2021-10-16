@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #EEEEEE;
+}
+.landing-page {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("https://unsplash.com/photos/kVKz9qnJC-k/download?force=true&w=2400");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page {
+    background-size: contain;
+
+  }
+}

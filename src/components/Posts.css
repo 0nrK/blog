@@ -1,0 +1,11 @@
+.posts {
+    display: inline-flex;
+    flex-direction: row;
+    width: 70vw;
+}
+.posts-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+} 
+

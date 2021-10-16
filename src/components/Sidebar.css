@@ -1,0 +1,61 @@
+.sidebar {
+    position: relative;
+    top: 5vh;
+    right: 0;
+    float: right;
+    height: auto;
+    width: 25vw;
+    padding: 3rem;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.sidebar-heading{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 1.5rem;
+    margin: 1rem;
+    font-size: bold;
+    font-size: 1.5rem;
+}
+
+.sidebar>img {
+    margin: 2rem auto;
+    height: 20vh;
+    width: 20vw;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.categories>span{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    font-weight: 100;
+}
+
+.whoami{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+
+.socials>ul,li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+    font-weight: 100;
+    margin-top: 8px;
+}

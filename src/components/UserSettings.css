@@ -1,0 +1,59 @@
+.settings {
+    margin-left: 2rem;
+    max-width: 1024px;
+}
+
+
+.settings h1{
+    font-size: 4rem;
+    margin: 1rem 0;
+}
+
+.profile-pic {
+    height: 12vh;
+    width: 12vw;
+    border-radius: 12px;
+}
+.settings-wrapper > input {
+    line-height: 24px;
+    padding: 8px;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.settings-wrapper>span {
+    padding: 0;
+    margin: 1rem 0;
+    color: tomato;
+    font-size: 2rem;
+    line-height: 36px;
+}
+.pp-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+}
+.pp-wrapper>label {
+    align-self: center;
+}
+
+.pp-btn {
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: hotpink;
+    align-self: center;
+}
+
+.update-btn {
+    padding: 12px;
+    background-color: teal;
+    font-size: 2rem;
+    color: white;
+    border:none;
+    cursor: pointer;
+    margin: 1rem;
+    float: right;
+    border-radius: 8px;
+}

@@ -1,0 +1,34 @@
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.mobile-menu-item {
+    color: black;
+    margin-top: 48px;
+}
+
+.mb-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    margin: 1.5rem;
+}
+
+
+
+
+
+.menuClose-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    color: black;
+}

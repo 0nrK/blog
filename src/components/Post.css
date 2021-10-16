@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+.post{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1px solid;
+    height: auto;
+    width: 25vw;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+.post>p,h3,span{
+    padding: 0.5rem;
+    display: block;
+}
+
+.tags {
+    font-size: 16px;
+    margin: 0 auto;
+    width: max-content;
+    background-color: gray;
+    color: white;
+    border-radius: 8px;
+}
+
+.post-img {
+    height: 30vh;
+    width: 25vw;
+    border-radius: 1rem;
+    transition: 0.75s;
+    object-fit: cover;
+}
+
+
+.post-img:hover {
+    transform: scale(1.03);
+
+}
+
+.title {
+    font-size: 2rem;
+    padding: 0.2rem;
+    
+}
+.time-stamp {
+    font-size: 16px;
+    color: gray;
+    padding: 0.2rem;
+}
+.content {
+    font-size: 20px;
+    text-indent: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.content::first-letter {
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    .post {
+        width: 80vw;
+    }
+    .post h3 {
+        font-size: 3rem;
+    }
+    .post span {
+        font-size: 1rem;
+    }
+    .post-img{
+        width: 75vw;
+        object-fit: cover;
+    }
+}

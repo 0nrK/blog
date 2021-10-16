@@ -1,0 +1,74 @@
+.addpost-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.addpost-from{
+    display: flex;
+    flex-direction: column;
+
+}
+.addpost-img {
+    margin-top: 1rem;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+.texts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.post-title {
+    height: 5vh;
+    font-size: 2.5rem;
+    border: none;
+    line-height: 24px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 12px;
+}
+.post-title:focus{
+    outline: none;
+}
+.post-text {
+    height: 60vh;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 1rem 2rem;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+
+}
+.post-text:focus {
+    outline: none;
+}
+
+.buttons {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.file-button {
+    text-align: center;
+    font-size: 3rem;
+    color: grey;
+    cursor: pointer;
+
+}
+
+.post-submit {
+    background-color: teal;
+    color: white;
+    padding: 0.6rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+
+}

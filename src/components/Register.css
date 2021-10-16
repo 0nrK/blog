@@ -1,0 +1,48 @@
+.register {
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    font-size: 2rem;
+}
+
+.register-form > input {
+    width: 20vw;
+    height: 5vh;
+    padding: 1rem;
+    line-height: 24px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    margin: 2rem auto;
+}
+
+.btn {
+    padding: 1rem;
+    color: white;
+    background-color: teal;
+    font-size: 1.5rem;
+    width: 10vw;
+    margin: 0 auto;
+}
+
+.btn2 {
+    position: absolute;
+    top: 15vh;
+    right: 5vw; 
+    padding: 1rem;
+    color: white;
+    background-color: tomato;
+    font-size: 1.5rem;
+    border: none;
+    width: 10vw;
+}
+
+h1 {
+    margin-bottom: 5rem;
+}
